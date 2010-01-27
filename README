@@ -1,0 +1,5 @@
+FILTRANDO
+
+awk -f analise -v type="tipo-trafego" trace.tr > resultado-analise.txt
+awk -f throughput trace.tr > resultado-throughput.txt
+awk -f jitter trace.tr > resultado-jitter.txt
